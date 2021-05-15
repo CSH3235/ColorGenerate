@@ -25,7 +25,7 @@ body {
     flex-direction: column;
 }
 
-#text {
+#textDiv {
     font-size: 3rem;
     margin-bottom: 20px;
 }
@@ -35,8 +35,22 @@ body {
     font-size: 1.1rem;
     border: none;
     outline: none;
-    cursor: pointer;
-    background: #1687a7;
+    background: #102f67;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+#copyBtn {
+    width: 100px;
+    max-width: 100px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background: #102f67;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
 }
