@@ -32,6 +32,7 @@ window.onload = function() {
         createInput.select();
         document.execCommand('copy');
         document.getElementById("textDiv").removeChild(createInput);
+        window.navigator.vibrate(200);
     }
 
     function copied() {
