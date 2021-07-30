@@ -71,10 +71,10 @@ body {
   height: 100px;
   background: conic-gradient(black, white);
   border-radius: 100%;
-  -webkit-animation: rotate_1 4s infinite;
-          animation: rotate_1 4s infinite;
-  -webkit-transition: cubic-bezier(1, 0.01, 0, 1);
-  transition: cubic-bezier(1, 0.01, 0, 1);
+  -webkit-animation: rotate_1 3s infinite;
+          animation: rotate_1 3s infinite;
+  -webkit-transition: cubic-bezier(1, 0, 0, 1);
+  transition: cubic-bezier(1, 0, 0, 1);
 }
 
 @-webkit-keyframes rotate_1 {
