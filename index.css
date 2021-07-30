@@ -65,3 +65,52 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background: conic-gradient(black, white);
+  border-radius: 100%;
+  -webkit-animation: rotate_1 4s infinite;
+          animation: rotate_1 4s infinite;
+  -webkit-transition: cubic-bezier(1, 0.01, 0, 1);
+  transition: cubic-bezier(1, 0.01, 0, 1);
+}
+
+@-webkit-keyframes rotate_1 {
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate_1 {
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

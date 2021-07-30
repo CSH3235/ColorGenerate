@@ -55,3 +55,30 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(black, white);
+    border-radius: 100%;
+    animation: rotate_1 4s infinite;
+    transition: cubic-bezier(1,.01,0,1);
+}
+
+@keyframes rotate_1 {
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
