@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+.main {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#textDiv {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.Btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    background: #102f67;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#copyBtn {
+    width: 100px;
+    max-width: 100px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background: #102f67;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
